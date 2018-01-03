@@ -2,7 +2,7 @@
 
 ==> I run the bot "MyBot.java" against the bot "DualBot.jar" in 5 maps.
 
-==> Each individual play on 5 maps per iteration against this "DualBot.jar".
+==> Each individual play on 5 maps per iteration against this "DualBot.jar" ====> with 100 turn per map.
 
 ==> The result is as an answer of the question "win ? True / False".
 
