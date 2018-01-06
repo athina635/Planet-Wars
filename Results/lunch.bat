@@ -20,7 +20,7 @@ SHIFT
 SHIFT
 SET TEN=%~1
 
-cd Mora2
+
 java -jar tools/PlayGame-1.2.jar maps/map%ONE%.txt 1000 99 log.txt  2> %TEN%.txt "java MyBot %TWO% %THREE% %FOUR% %FIVE% %SIX% %SEVEN% %EIGHT% %NINE%" "java -jar example_bots/DualBot.jar"
 
 echo "finished"
