@@ -1,0 +1,19 @@
+
+## parameters used befor optimization
+
+
+tithe = 0.16259146919042347; 
+
+p_tithe = 0.500777112417761187;
+
+p_NS = 0.540427710359566;
+
+p_GR = 0.7568133697690975;
+
+p_DIS = 0.82192190816780395;
+
+extraFleets = (int) (8); ===> (pool)
+
+support = 0.37517566326974067;
+
+p_support = 0.45170600185766996;
