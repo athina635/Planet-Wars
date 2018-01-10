@@ -1,3 +1,0 @@
-## Score function used to determine the target planet
-
-score = ((p.NumShips() * p_NS )*(p_DIS * Math.sqrt(dist)) / ((1+p.GrowthRate()*2)*p_GR))
