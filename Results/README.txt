@@ -1,17 +1,14 @@
-==> some new results for 50*100 (50 generations for 100 individuals) 
-
-## with those parameters
-
-0.19601817986098102  	==> Tithe porcentage
-0.7531473687267273		==> Tithe probability
-0.9446978115277598		==> P_NS (numShip)
-0.6658533939937841		==> P_GR (GrowthRate)	
-0.15299149125994005		==> P_DIS (Distance)
-0.1999686488287138		==> extra Fleets (Pool)
-0.3829650057531646		==> Support proportion
-0.7492570758548159		==> Support probability
 
 
-PROBLEM ===> i constat that from previous generations to new ones there is NO really improvement of quality, and you can see that from the file #log_population, i constat the win value is almost False and that's mean the bot not a winner bot so the parameters are no longer perfect ones ...!!
+==> some new results for 15*20 (15 generations for 20 individuals) 
 
-WORK TO DO ===> A zoom look into the problem ...
+
+
+## I used the RandomBot like enemy bot (you can check it in the lunch file).
+
+## The optimization mechanism is to run the bot into 5 maps (7,11,26,69,76) with the same enemy bot (RandomBot) for each individual.
+
+## Try to optimize the parameters based on two factors, the result factor (win = true / false) and the second one is the number of turns need to win if there is a win. 
+
+## Result set befor the optimization with a random parameters  and after optimization  with the same enemy bot (RandomBot.jar).
+
